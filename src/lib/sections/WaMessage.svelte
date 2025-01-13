@@ -1,6 +1,6 @@
 <script>
     let { text } = $props();
-    let src = "/wa-background.png"
+    let src = "wa-background.png"
 </script>
 
 <div class="py-4">
