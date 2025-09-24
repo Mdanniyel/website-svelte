@@ -1,18 +1,19 @@
 <script>
-    let { text } = $props();
-    let src = "wa-background.png"
+	let { text } = $props();
+	let src = 'wa-background.png';
 </script>
 
-<div class="flex items-center justify-center p-2 rounded-lg shadow-md" style="background-image: url({src}); background-color: #eae6df;">
-    <div class="flex justify-start">
-        <div
-            class="relative max-w-xl rounded-lg bg-white px-3 py-2 text-gray-800 shadow"
-        >
-            <p class="text-xl">
-                {text}
-            </p>
-        </div>
-    </div>
+<div
+	class="flex items-center justify-center rounded-lg p-2 shadow-md"
+	style="background-image: url({src}); background-color: #eae6df;"
+>
+	<div class="flex justify-start">
+		<div class="relative max-w-xl rounded-lg bg-white px-3 py-2 text-gray-800 shadow-sm">
+			<p class="text-xl">
+				{text}
+			</p>
+		</div>
+	</div>
 </div>
 
 <style>

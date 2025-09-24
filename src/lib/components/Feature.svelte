@@ -1,7 +1,7 @@
 <div class="group bg-black md:p-8 lg:p-14">
 	<span class="relative">
 		<span
-			class="absolute inset-0 -start-12 h-full w-24 scale-90 bg-gradient-to-r from-cyan-400/80 via-pink-400/80 to-rose-300/80 opacity-70 blur-xl filter"
+			class="absolute inset-0 -start-12 h-full w-24 scale-90 bg-linear-to-r from-cyan-400/80 via-pink-400/80 to-rose-300/80 opacity-70 blur-xl filter"
 		></span>
 
 		<svg
