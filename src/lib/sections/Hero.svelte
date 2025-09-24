@@ -11,7 +11,7 @@
 			<header class="mt-3 self-center">
 				<hgroup class="mt-7 text-center">
 					<h1
-						class="mb-5 bg-gradient-to-r from-stone-900 to-stone-700 bg-clip-text text-3xl font-bold tracking-wider text-transparent"
+						class="mb-5 bg-linear-to-r from-stone-900 to-stone-700 bg-clip-text text-3xl font-bold tracking-wider text-transparent"
 					>
 						מורה אישי להצלחה
 					</h1>

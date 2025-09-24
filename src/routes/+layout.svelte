@@ -5,7 +5,7 @@
 
 <svelte:head>
 	{#if import.meta.env.MODE === 'development'}
-		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 	{/if}
 </svelte:head>
 
