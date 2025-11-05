@@ -51,8 +51,44 @@ All major sections follow this pattern:
 ### Key Components
 - **About.svelte**: Dark section with statistics, methodology explanation
 - **Services.svelte**: White section with service grid and features
-- **Hero.svelte**: Landing section with call-to-action
+- **Hero.svelte**: Landing section with call-to-action and animated recommendations
 - **Features.svelte**: Benefits and teaching approach
+
+### Critical Animation System - Hero Recommendations
+The hero section features an **auto-scrolling recommendations animation** - this is one of the most important visual elements that users see immediately upon entering the site.
+
+#### Component Architecture:
+1. **Hero.svelte**: Main landing section containing RecommendationsPanel
+2. **RecommendationsPanel.svelte**: Container for multiple recommendation columns with fade effects
+3. **RecommendationColumn.svelte**: Individual column with infinite scroll animation
+4. **WaMessage.svelte**: Individual recommendation message component
+5. **recommendations.json**: Data source with 27 authentic student testimonials
+
+#### Animation Implementation:
+```css
+/* Key animation in RecommendationColumn.svelte */
+ul.slide-top {
+    animation: slide-top 70s linear infinite both;
+}
+
+@keyframes slide-top {
+    100% {
+        transform: translateY(-50%);
+    }
+}
+```
+
+#### Visual Effects:
+- **Infinite Scroll**: Recommendations scroll continuously upward
+- **Gradient Fade**: Top and bottom fade effects using `bg-linear-to-b from-white`
+- **Multiple Columns**: 1-3 columns based on screen size (responsive)
+- **Content Duplication**: Each recommendation array is duplicated for seamless loop
+
+#### Critical Notes:
+- Animation duration: 70 seconds for smooth, readable scroll
+- Content: Real Hebrew testimonials from physics students
+- Performance: Uses CSS transforms for smooth GPU acceleration
+- **Never modify the animation timing** - it's calibrated for optimal readability
 
 ### Statistics Format
 When displaying numbers/statistics:

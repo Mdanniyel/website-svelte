@@ -25,6 +25,7 @@ All section components must follow the Studio.tailwindui.com design pattern with
 - Background: `bg-white`
 - Text: `text-neutral-900` for headers, `text-neutral-600` for body text
 - Used for: Services, Features, Hero
+- **Hero Section**: Contains critical auto-scrolling recommendations animation
 - Pattern:
 ```svelte
 <section class="bg-white py-24 sm:py-32">
@@ -33,6 +34,24 @@ All section components must follow the Studio.tailwindui.com design pattern with
   </div>
 </section>
 ```
+
+## Critical Hero Section Animation
+
+The Hero section contains the most important visual element - auto-scrolling student recommendations.
+
+### Animation Components:
+- **RecommendationsPanel**: Multi-column container with fade effects
+- **RecommendationColumn**: Individual scrolling column (70s animation)
+- **WaMessage**: WhatsApp-style recommendation messages
+- **recommendations.json**: 27 authentic Hebrew testimonials
+
+### **DO NOT MODIFY**:
+- Animation timing (70 seconds)
+- Transform values (translateY(-50%))
+- Fade gradient effects
+- Content duplication pattern
+
+This animation is the first thing users see and is calibrated for optimal readability and impact.
 
 ## RTL Support for Sections
 

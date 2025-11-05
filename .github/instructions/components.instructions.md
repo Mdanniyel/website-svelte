@@ -4,9 +4,64 @@ applyTo: "src/lib/components/**/*.svelte"
 
 # UI Components Instructions
 
-## Component Design Principles
+## Critical Animation Components
 
-All UI components must follow the established design system based on Studio.tailwindui.com patterns.
+### Hero Recommendations System
+The hero section's auto-scrolling recommendations are **the most important visual element** users see first.
+
+#### RecommendationsPanel Component
+```svelte
+<!-- Container with multiple columns and fade effects -->
+<aside class="relative my-2 flex gap-2 overflow-hidden">
+  <RecommendationColumn recommendations={recommendations.slice(0)} additionalClasses="" />
+  <RecommendationColumn recommendations={recommendations.slice(4)} additionalClasses="lg:block hidden" />
+  <RecommendationColumn recommendations={recommendations.slice(2)} additionalClasses="xl:block hidden" />
+  
+  <!-- Critical fade effects -->
+  <div class="pointer-events-none absolute inset-x-0 top-0 h-32 bg-linear-to-b from-white"></div>
+  <div class="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-linear-to-t from-white"></div>
+</aside>
+```
+
+#### RecommendationColumn Component
+```svelte
+<!-- Infinite scroll animation -->
+<section class="{additionalClasses} min-w-60 grow overflow-hidden">
+  <ul class="slide-top space-y-5">
+    {#each recommendations as recommendation}
+      <li><WaMessage text={recommendation} /></li>
+    {/each}
+    {#each recommendations as recommendation}
+      <li><WaMessage text={recommendation} /></li>
+    {/each}
+  </ul>
+</section>
+
+<style>
+  ul.slide-top {
+    animation: slide-top 70s linear infinite both;
+  }
+  
+  @keyframes slide-top {
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+</style>
+```
+
+#### Animation Guidelines
+- **Duration**: 70 seconds - DO NOT CHANGE (calibrated for readability)
+- **Direction**: translateY(-50%) for upward scroll
+- **Content**: Real student testimonials in Hebrew
+- **Performance**: Uses CSS transforms for GPU acceleration
+- **Responsive**: 1-3 columns based on screen size
+
+#### WaMessage Component
+Individual recommendation styled as WhatsApp message:
+- Green background mimicking WhatsApp
+- Hebrew RTL text direction
+- Proper spacing and typography
 
 ## Button Components
 
