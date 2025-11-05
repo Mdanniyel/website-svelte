@@ -1,95 +1,98 @@
-<section>
-	<div class="relative -mt-14 rounded-3xl bg-black22 px-8 py-20 text-white22">
-		<div class="pb-12">
-			<h2 class="text-center text-4xl font-extrabold tracking-tighter">השירותים שלי</h2>
+<!-- Services Section - Studio inspired design -->
+<section class="bg-white">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+		<div class="mx-auto max-w-2xl lg:max-w-none">
+			<div>
+				<h1>
+					<span class="block font-display text-base font-semibold text-neutral-950">
+						השירותים שלי
+					</span>
+					<span class="sr-only">-</span>
+					<span class="mt-6 block max-w-5xl font-display text-5xl font-medium tracking-tight text-balance text-neutral-950 sm:text-6xl">
+						גישה מקצועית ומותאמת אישית
+					</span>
+				</h1>
+				<div class="mt-6 max-w-3xl text-xl text-neutral-600">
+					<p>
+						כל תלמיד מקבל תוכנית לימוד מותאמת אישית, עם מעקב רציף אחר ההתקדמות ותמיכה בכל שלב בדרך להצלחה.
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="mx-auto max-w-lg text-justify leading-relaxed tracking-wide">
-			<h3 class="font-semibold">הוראה פרטית אישית</h3>
-			<ul class="mb-4 list-inside list-disc">
-				<li>שיעורים פרטיים מותאמים אישית לכל תלמיד</li>
-				<li>קצב למידה מותאם לרמת התלמיד</li>
-				<li>התמקדות בנושאים הבעייתיים עבור התלמיד</li>
-				<li>פתרון בעיות ותרגול מעמיק</li>
-			</ul>
+	</div>
 
-			<h3 class="font-semibold">קבוצות קטנות</h3>
-			<ul class="mb-4 list-inside list-disc">
-				<li>קבוצות של 2-3 תלמידים</li>
-				<li>מיועד בעיקר לתקופות לפני בחינות</li>
-				<li>יצירת אווירה תומכת ותחרותית בריאה</li>
-				<li>חלוקת עלויות בין התלמידים</li>
-			</ul>
+	<!-- Services Grid -->
+	<div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+		<div class="mx-auto max-w-2xl lg:max-w-none">
+			<div>
+				<ul role="list" class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+					<li class="text-base text-neutral-600">
+						<div>
+							<div class="ps-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+								<strong class="font-semibold text-neutral-950">הוראה פרטית.</strong>
+								שיעורים אישיים שמותאמים בדיוק לקצב הלמידה שלך ולסגנון הלמידה הייחודי שלך. כל שיעור בנוי במיוחד כדי לחזק את נקודות החוזק ולטפל בנקודות שצריכות שיפור.
+							</div>
+						</div>
+					</li>
+					<li class="text-base text-neutral-600">
+						<div>
+							<div class="ps-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+								<strong class="font-semibold text-neutral-950">קבוצות קטנות.</strong>
+								למידה משותפת עם 2-3 תלמידים שמעודדת דיון, חשיבה ביקורתית ולמידה הדדית. הקבוצות נבנות בקפידה כדי להבטיח רמה דומה ויעדים משותפים.
+							</div>
+						</div>
+					</li>
+					<li class="text-base text-neutral-600">
+						<div>
+							<div class="ps-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+								<strong class="font-semibold text-neutral-950">שיעורים מקוונים.</strong>
+								גמישות מלאה ללמידה מרחוק בזמן שנוח לך. טכנולוגיה מתקדמת שמבטיחה חוויית למידה איכותית זהה לשיעור פרונטלי, עם כלים אינטראקטיביים ומעקב בזמן אמת.
+							</div>
+						</div>
+					</li>
+					<li class="text-base text-neutral-600">
+						<div>
+							<div class="ps-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+								<strong class="font-semibold text-neutral-950">התמחויות מיוחדות.</strong>
+								התמחות בהכנה לבגרות, תחרויות פיזיקה ותמיכה מיוחדת לתלמידים עם קשיי למידה. כל תלמיד מקבל תוכנית מותאמת לצרכים הספציפיים שלו והמטרות שרוצה להשיג.
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-			<h3 class="font-semibold">שיעורים מקוונים</h3>
-			<ul class="mb-4 list-inside list-disc">
-				<li>שיעורים דרך המחשב או הטלפון</li>
-				<li>גמישות מלאה בזמנים</li>
-				<li>אפשרות לתיעוד השיעור לחזרה</li>
-				<li>מתאים לתלמידים מכל הארץ</li>
-			</ul>
-
-			<h3 class="mb-2 font-semibold">התמחויות</h3>
-			<ul class="mb-4 list-inside list-disc">
-				<li>הכנה לבגרות בכל הרמות</li>
-				<li>הכנה לתחרויות פיזיקה</li>
-				<li>פיזיקה לתלמידים מתקשים</li>
-				<li>העמקה לתלמידים מצטיינים</li>
-			</ul>
-
-			<h3 class="mb-2 font-semibold">שיטת ההוראה שלי:</h3>
-			<ol class="list-inside list-decimal">
-				<li>אבחון רמת התלמיד ונקודות התורפה</li>
-				<li>בניית תוכנית לימודים מותאמת אישית</li>
-				<li>הסבר מובנה עם דוגמאות מעשיות</li>
-				<li>תרגול מקיף וחזרה על החומר</li>
-				<li>מעקב מתמיד ולמידה מתקנת</li>
-			</ol>
+	<!-- Bottom Features -->
+	<div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24">
+		<div class="mx-auto max-w-2xl lg:max-w-none">
+			<div class="grid gap-8 md:grid-cols-3">
+				<div class="text-center">
+					<div class="mx-auto mb-6 h-1 w-16 bg-neutral-950"></div>
+					<h4 class="mb-3 font-display text-xl font-semibold text-neutral-950">גמישות מלאה</h4>
+					<p class="text-neutral-600 mb-4">התאמה לקצב האישי שלך</p>
+					<!-- <div class="text-center">
+						<span class="inline-block bg-neutral-100 text-neutral-700 text-sm px-3 py-2 rounded-full">24/7 זמינות</span>
+					</div> -->
+				</div>
+				<div class="text-center">
+					<div class="mx-auto mb-6 h-1 w-16 bg-neutral-950"></div>
+					<h4 class="mb-3 font-display text-xl font-semibold text-neutral-950">מעקב אישי</h4>
+					<p class="text-neutral-600 mb-4">דיווחים והתקדמות מתמידים</p>
+					<!-- <div class="text-center">
+						<span class="inline-block bg-neutral-100 text-neutral-700 text-sm px-3 py-2 rounded-full">מעקב שבועי</span>
+					</div> -->
+				</div>
+				<div class="text-center">
+					<div class="mx-auto mb-6 h-1 w-16 bg-neutral-950"></div>
+					<h4 class="mb-3 font-display text-xl font-semibold text-neutral-950">תוצאות מוכחות</h4>
+					<p class="text-neutral-600 mb-4">שיפור ניכר בציונים ובהבנה</p>
+					<!-- <div class="text-center">
+						<span class="inline-block bg-neutral-100 text-neutral-700 text-sm px-3 py-2 rounded-full">95% הצלחה</span>
+					</div> -->
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
 
-<!-- שירותים -->
-<section class="py-8">
-	<h2 class="mb-4 text-2xl font-semibold">השירותים שלי</h2>
-
-	<h3 class="font-semibold">הוראה פרטית אישית</h3>
-	<ul class="mb-4 list-inside list-disc">
-		<li>שיעורים פרטיים מותאמים אישית לכל תלמיד</li>
-		<li>קצב למידה מותאם לרמת התלמיד</li>
-		<li>התמקדות בנושאים הבעייתיים עבור התלמיד</li>
-		<li>פתרון בעיות ותרגול מעמיק</li>
-	</ul>
-
-	<h3 class="font-semibold">קבוצות קטנות</h3>
-	<ul class="mb-4 list-inside list-disc">
-		<li>קבוצות של 2-3 תלמידים</li>
-		<li>מיועד בעיקר לתקופות לפני בחינות</li>
-		<li>יצירת אווירה תומכת ותחרותית בריאה</li>
-		<li>חלוקת עלויות בין התלמידים</li>
-	</ul>
-
-	<h3 class="font-semibold">שיעורים מקוונים</h3>
-	<ul class="mb-4 list-inside list-disc">
-		<li>שיעורים דרך המחשב או הטלפון</li>
-		<li>גמישות מלאה בזמנים</li>
-		<li>אפשרות לתיעוד השיעור לחזרה</li>
-		<li>מתאים לתלמידים מכל הארץ</li>
-	</ul>
-
-	<h3 class="mb-2 font-semibold">התמחויות</h3>
-	<ul class="mb-4 list-inside list-disc">
-		<li>הכנה לבגרות בכל הרמות (3, 4, 5 יחידות)</li>
-		<li>הכנה לתחרויות פיזיקה</li>
-		<li>פיזיקה לתלמידים מתקשים</li>
-		<li>העמקה לתלמידים מצטיינים</li>
-	</ul>
-
-	<h3 class="mb-2 font-semibold">שיטת ההוראה שלי:</h3>
-	<ol class="list-inside list-decimal">
-		<li>אבחון רמת התלמיד ונקודות התורפה</li>
-		<li>בניית תוכנית לימודים מותאמת אישית</li>
-		<li>הסבר מובנה עם דוגמאות מעשיות</li>
-		<li>תרגול מקיף וחזרה על החומר</li>
-		<li>מעקב מתמיד ולמידה מתקנת</li>
-	</ol>
-</section>

@@ -1,32 +1,112 @@
-<section>
-	<div class="relative -mt-14 rounded-3xl bg-black px-8 py-20 text-white">
-		<div class="pb-12">
-			<h2 class="text-center text-4xl font-extrabold tracking-tighter">הדרך שלי</h2>
+<!-- About Section - Studio inspired design -->
+<section class="bg-white">
+	<div class="mx-auto max-w-7xl ">
+		<div class="bg-neutral-950 py-24 sm:py-32 lg:py-40 rounded-4xl">
+			<div class="mx-auto max-w-7xl px-6 lg:px-8">
+				<div class="mx-auto max-w-2xl lg:max-w-none">
+					<div>
+						<h1>
+							<span class="block font-display text-base font-semibold text-white">
+								אודות שיטת ההוראה
+							</span>
+							<span class="sr-only">-</span>
+							<span class="mt-6 block max-w-5xl font-display text-5xl font-medium tracking-tight text-balance text-white sm:text-6xl">
+								הדרך שלי ללמד פיזיקה
+							</span>
+						</h1>
+						<div class="mt-6 max-w-3xl text-xl text-neutral-200">
+							<p>
+								הגישה שלי להוראה מבוססת על הבנה מעמיקה של כל תלמיד ויצירת תוכנית לימוד מותאמת אישית שמביאה לתוצאות מוכחות.
+							</p>
+						</div>
+						<div class="mt-10 max-w-2xl space-y-6 text-base text-neutral-300">
+							<p>
+								בניגוד לשיעורים מסורתיים, אני מאמין בלמידה פעילה שבה התלמיד לוקח חלק מרכזי בתהליך. 
+								כל תלמיד מקבל תשומת לב אישית ותוכנית שמותאמת בדיוק לצרכים שלו.
+							</p>
+							<p>
+								מההתחלה אני מזהה את נקודות החוזק והחולשה של כל תלמיד, ועל בסיס זה בונה תוכנית שמחזקת את הביטחון העצמי ומביאה להצלחה מדידה.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Values Section -->
+			<div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+				<div class="mx-auto max-w-2xl lg:max-w-none">
+					<div>
+						<ul role="list" class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+							<li class="text-base text-neutral-200">
+								<div>
+									<div class="ps-8 relative before:absolute after:absolute before:bg-white after:bg-white/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+										<strong class="font-semibold text-white">תרגול פעיל.</strong>
+										הצלחה בפיזיקה דורשת תרגול וזה גם היתרון המרכזי בשיעורים פרטניים. התלמיד לא רק צופה אלא לוקח חלק פעיל ובזמן התרגול אני איתו כדי לחזק את מה שנכון ולתקן את מה שאינו נכון.
+									</div>
+								</div>
+							</li>
+							<li class="text-base text-neutral-200">
+								<div>
+									<div class="ps-8 relative before:absolute after:absolute before:bg-white after:bg-white/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+										<strong class="font-semibold text-white">זיהוי הבעיה.</strong>
+										בתחילת הלימוד אני מנסה לזהות את הבעיה או הקשיים של התלמיד. מהניסיון לעיתים מדובר בקושי "אמיתי" ולעיתים בקשיים משניים שמשפיעים על היכולות.
+									</div>
+								</div>
+							</li>
+							<li class="text-base text-neutral-200">
+								<div>
+									<div class="ps-8 relative before:absolute after:absolute before:bg-white after:bg-white/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+										<strong class="font-semibold text-white">בניית ביטחון.</strong>
+										לעיתים חוסר הביטחון נובע מחוויה שלילית במהלך הלימוד. חוסר תרגול נכון יכול להוביל להרגשת חוסר ביטחון, ואני עובד על שיקום זה בצורה מדורגת.
+									</div>
+								</div>
+							</li>
+							<li class="text-base text-neutral-200">
+								<div>
+									<div class="ps-8 relative before:absolute after:absolute before:bg-white after:bg-white/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+										<strong class="font-semibold text-white">עבודה משותפת.</strong>
+										לאחר שאני מזהה את הקושי או הקשיים של התלמיד אנחנו עובדים ביחד ומתמקדים בכל מה שצריך חיזוק. התהליך מותאם אישית לכל תלמיד ולמידת הלמידה שלו.
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="mx-auto max-w-lg text-justify leading-relaxed tracking-wide">
-			<p>
-				הצלחה בפיזיקה דורשת תרגול וזה גם היתרון המרכזי בשיעורים פרטניים. התלמיד או התלמידה לא רק
-				צופים בשיעור אלא לוקחים בו חלק פעיל ובזמן שהם מתרגלים - אני איתם כדי לחזק את מה שנכון ולתקן
-				את מה שאינו נכון.
-			</p>
-			<p class="mt-6">
-				בתחילת הלימוד עם התלמיד או התלמידה אני מנסה לזהות את הבעיה או הקשיים שיש להם, מהניסיון שלי
-				לעיתים מדובר בקושי "אמיתי" ולעיתים מדובר בקשיים משניים שמשפיעים על היכולות של התלמיד או
-				התלמידה. למשל, ישנם תלמידים שלא תרגלו מספיק או שלא תרגלו עם מישהו שיכול לכוון אותם וכתוצאה
-				מכך העבודה שלהם מרושלת או שהם מתקשים להבין נושאים שהם יותר מורכבים בפיזיקה - זו דוגמה לקושי
-				אמיתי. דוגמה נוספת היא כשאני מזהה שהתלמיד או התלמידה חשים חוסר ביטחון בלימוד, חוסר ביטחון
-				הוא קושי מוכר ונפוץ בכל שלבי הלימוד.
-			</p>
-			<p class="mt-6">
-				לעיתים חוסר הביטחון נובע מחוויה שלילית במהלך הלימוד. זה יכול לנבוע מיחס לקוי של המורה בבית
-				ספר (מבלי חלילה לבקר את צוות ההוראה, לימוד בכיתה מלאת תלמידים היא משימה קשה. לרוב, למורה אין
-				יכולת להיות קשוב באמת לכל תלמיד ותלמידה), מלבד יחסי מורה-תלמיד גם חוסר תרגול נכון יכול
-				להוביל להרגשת חוסר ביטחון אצל התלמידים. חוסר ביטחון הוא דוגמה לקושי עקיף שפוגע ישירות
-				ביכולות של התלמיד או התלמידה וישפיעו בוודאות על הציונים שלהם לרעה.
-			</p>
-			<p class="mt-6">
-				לאחר שאני מזהה את הקושי או הקשיים של התלמידים אנחנו עובדים ביחד ומתמקדים בכל מה שצריך חיזוק.
-			</p>
+	</div>
+	
+	<!-- Statistics Section -->
+	<div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+		<div class="mx-auto max-w-2xl lg:max-w-none">
+			<div>
+				<dl class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:auto-cols-fr lg:grid-flow-col lg:grid-cols-none">
+					<div class="flex flex-col-reverse ps-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+						<dt class="mt-2 text-base text-neutral-600">
+							שנות ניסיון
+						</dt>
+						<dd class="font-display text-3xl font-semibold text-neutral-950 sm:text-4xl">
+							13
+						</dd>
+					</div>
+					<div class="flex flex-col-reverse ps-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+						<dt class="mt-2 text-base text-neutral-600">
+							תלמידים
+						</dt>
+						<dd class="font-display text-3xl font-semibold text-neutral-950 sm:text-4xl">
+							650+
+						</dd>
+					</div>
+					<div class="flex flex-col-reverse ps-8 relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:top-0 before:start-0 before:h-6 before:w-px after:top-8 after:bottom-0 after:start-0 after:w-px">
+						<dt class="mt-2 text-base text-neutral-600">
+							שיעורים
+						</dt>
+						<dd class="font-display text-3xl font-semibold text-neutral-950 sm:text-4xl">
+							3800+
+						</dd>
+					</div>
+				</dl>
+			</div>
 		</div>
 	</div>
 </section>

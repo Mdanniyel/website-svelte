@@ -4,7 +4,7 @@
 	let { recommendations } = $props();
 </script>
 
-<aside class="relative my-4 flex gap-2 overflow-hidden">
+<aside class="relative my-2 flex gap-2 overflow-hidden">
 	<RecommendationColumn recommendations={recommendations.slice(0)} additionalClasses="" />
 	<RecommendationColumn
 		recommendations={recommendations.slice(4)}

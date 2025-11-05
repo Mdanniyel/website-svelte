@@ -11,6 +11,7 @@
 	viewBox="0 0 122.88 122.267"
 	enable-background="new 0 0 122.88 122.267"
 	xml:space="preserve"
+	fill="currentColor"
 >
 	<g>
 		<path

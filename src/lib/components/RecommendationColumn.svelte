@@ -4,7 +4,7 @@
 	let { recommendations, additionalClasses } = $props();
 </script>
 
-<section class="{additionalClasses} min-w-64 grow overflow-hidden">
+<section class="{additionalClasses} min-w-60 grow overflow-hidden">
 	<ul class="slide-top space-y-5">
 		{#each recommendations as recommendation}
 			<li>

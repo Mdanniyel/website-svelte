@@ -6,7 +6,7 @@
 </script>
 
 <section>
-	<main class="relative -mt-16 h-screen rounded-t-3xl bg-white">
+	<main class="relative -mt-16 h-[calc(100vh-3rem)] rounded-t-3xl bg-white">
 		<article class="relative flex h-full flex-col justify-between gap-2 px-2 md:flex-row-reverse">
 			<header class="mt-3 self-center">
 				<hgroup class="mt-7 text-center">
@@ -15,11 +15,13 @@
 					>
 						מורה אישי להצלחה
 					</h1>
-					<p class="text-center text-lg font-light tracking-wide">
+					<p class="text-center text-lg font-light tracking-wide text-neutral-600">
 						אחרי מאות תלמידים ועשור של ניסיון, אני יכול להגיד בבטחון שאני יודע ללמד כל תלמיד איך
 						להצליח במבחנים ובכיתה. כל תלמיד יכול להצליח
 					</p>
 				</hgroup>
+				<!-- <ContactButtonsV3 /> -->
+				<!-- <ContactButtonsV4 /> -->
 				<ContactButtons />
 			</header>
 			<RecommendationsPanel {recommendations} />
