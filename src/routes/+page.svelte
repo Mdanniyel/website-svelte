@@ -4,7 +4,7 @@
 	import Services from '$lib/sections/Services.svelte';
 </script>
 
-<div class="h-20 bg-linear-to-br from-slate-900 to-slate-800"></div>
+<div class="h-20 bg-gradient-to-br from-slate-900 to-slate-800"></div>
 
 <Hero />
 
@@ -18,7 +18,7 @@
 		<h2 class="mb-8 text-center text-4xl font-extrabold tracking-tighter text-slate-900">
 			תעריפים
 		</h2>
-		<div class="mb-12 rounded-2xl bg-linear-to-br from-blue-50 to-indigo-50 p-8 shadow-md">
+		<div class="mb-12 rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 p-8 shadow-md">
 			<p class="mb-4 text-center text-xl text-slate-700">
 				שיעור פרטי: <strong class="text-2xl text-blue-600">125 ₪</strong> לשיעור של 45 דקות
 			</p>
@@ -102,7 +102,7 @@
 	<h2 class="mb-8 text-center text-4xl font-extrabold tracking-tighter text-slate-900">
 		איפה אני מלמד?
 	</h2>
-	<div class="rounded-2xl bg-linear-to-br from-slate-50 to-blue-50 p-8 shadow-lg">
+	<div class="rounded-2xl bg-gradient-to-br from-slate-50 to-blue-50 p-8 shadow-lg">
 		<p class="text-justify leading-relaxed tracking-wide text-slate-700">
 			אני מלמד פרונטלית באזורים רמת גן, גבעתיים, פתח תקווה וקריית אונו, מתוך אמונה שהשיעור
 			הפרונטלי הוא הדרך האפקטיבית ביותר ללמידה. בנוסף, אני מציע גם שיעורים מרוחקים דרך המחשב, כך

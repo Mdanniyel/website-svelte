@@ -8,7 +8,7 @@
 		<div class="container mx-auto max-w-5xl">
 			<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 				<!-- הוראה פרטית אישית -->
-				<div class="rounded-2xl bg-linear-to-br from-blue-50 to-indigo-50 p-6 shadow-lg transition hover:scale-105 hover:shadow-xl">
+				<div class="rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 p-6 shadow-lg transition hover:scale-105 hover:shadow-xl">
 					<div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600 text-2xl text-white shadow-md">
 						👤
 					</div>
@@ -34,7 +34,7 @@
 				</div>
 
 				<!-- קבוצות קטנות -->
-				<div class="rounded-2xl bg-linear-to-br from-purple-50 to-pink-50 p-6 shadow-lg transition hover:scale-105 hover:shadow-xl">
+				<div class="rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 p-6 shadow-lg transition hover:scale-105 hover:shadow-xl">
 					<div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-purple-600 text-2xl text-white shadow-md">
 						👥
 					</div>
@@ -60,7 +60,7 @@
 				</div>
 
 				<!-- שיעורים מקוונים -->
-				<div class="rounded-2xl bg-linear-to-br from-green-50 to-emerald-50 p-6 shadow-lg transition hover:scale-105 hover:shadow-xl">
+				<div class="rounded-2xl bg-gradient-to-br from-green-50 to-emerald-50 p-6 shadow-lg transition hover:scale-105 hover:shadow-xl">
 					<div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-green-600 text-2xl text-white shadow-md">
 						💻
 					</div>
@@ -87,7 +87,7 @@
 			</div>
 
 			<!-- התמחויות -->
-			<div class="mt-12 rounded-2xl bg-linear-to-br from-amber-50 to-orange-50 p-8 shadow-lg">
+			<div class="mt-12 rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 p-8 shadow-lg">
 				<div class="mb-6 flex items-center gap-4">
 					<div class="flex h-14 w-14 items-center justify-center rounded-xl bg-amber-600 text-3xl text-white shadow-md">
 						🎯
@@ -115,7 +115,7 @@
 			</div>
 
 			<!-- שיטת ההוראה -->
-			<div class="mt-12 rounded-2xl bg-linear-to-br from-slate-900 to-slate-800 p-8 text-white shadow-lg">
+			<div class="mt-12 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 p-8 text-white shadow-lg">
 				<div class="mb-6 flex items-center gap-4">
 					<div class="flex h-14 w-14 items-center justify-center rounded-xl bg-blue-600 text-3xl text-white shadow-md">
 						📚

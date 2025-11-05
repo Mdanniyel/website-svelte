@@ -6,12 +6,12 @@
 </script>
 
 <section>
-	<main class="relative -mt-16 h-screen rounded-t-3xl bg-linear-to-br from-white via-blue-50 to-indigo-50 shadow-2xl">
+	<main class="relative -mt-16 h-screen rounded-t-3xl bg-gradient-to-br from-white via-blue-50 to-indigo-50 shadow-2xl">
 		<article class="relative flex h-full flex-col justify-between gap-2 px-2 md:flex-row-reverse">
 			<header class="mt-3 self-center px-4">
 				<hgroup class="mt-7 text-center">
 					<h1
-						class="mb-5 bg-linear-to-r from-blue-600 to-indigo-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent drop-shadow-sm md:text-5xl"
+						class="mb-5 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent drop-shadow-sm md:text-5xl"
 					>
 						מורה אישי להצלחה
 					</h1>
